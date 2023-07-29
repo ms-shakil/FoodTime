@@ -1,0 +1,163 @@
+*{font-family: 'Lugrasimo', cursive;
+    padding: 0;
+    margin: 0;
+    /* background-color: #F1F4ED; */
+    box-sizing: border-box;
+
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   padding: 25px 20px;
+   background-color: #F1F4ED;
+
+}
+.navleft{
+    margin-left: 80px;
+}
+.navmid li{
+       display: inline;
+       padding: 0px 15px;
+}
+
+.navright{
+    margin-right: 80px;
+}
+.navright :first-child{
+    margin-right: 20px;
+    padding: 15px 50px;
+    background-color: #396C03;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+.navright :last-child{
+    background-color: #396C03;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 50%;
+}
+section{
+    display: flex;
+    background-color: #F1F4ED;
+    height: 500px;
+}
+.sectionleft {
+    width: 50%;
+    height: 400px;
+    padding: 100px 100px 100px 180px;
+    background-image: url("img/leaf.png " );
+    background-repeat: no-repeat;
+    background-size: 260px 200px;
+    background-position: 45px 10px;
+   
+}
+.sectionleft h1{
+    font-size: 30px;
+    color: #396C03;
+    font-weight:bolder;
+    background: none;
+
+}
+.sectionleft p{
+    padding: 15px;
+    background: none;
+    color: #A3B393;
+}
+
+.sectionleft div{
+    box-sizing: border-box;
+    border: 1px solid #396C03;
+    margin-top: 10px;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+.sectionleft div input{
+    padding: 8px;
+    border: none;
+    border-radius: 15px;
+    background-color: #F1F4ED;
+
+
+}
+
+
+.sectionleft div a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #396C03;
+    color: #ffff;
+    border-radius: 12px;
+
+}
+.sectionright{
+    width: 50%;
+    margin-top: 50px;
+}
+
+.sectionright div{
+    padding: 10px;
+    background-color: #ffff;
+    color: orangered;
+    border: 1px solid white;
+    text-align: center;
+    margin-left: 250px;
+    position: absolute;
+    z-index: 1;
+    
+}
+.sectionright div h1, h4,i{
+    background: none;
+}
+.img1{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.img2{
+   position: absolute;   
+   background: none;
+   margin-left: 315px; 
+   margin-top: 60px;
+
+}
+
+.section2{
+    background-color: #FFF9F2;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    padding: 50px;
+}
+
+.section2 div{
+    width: 50%;
+}
+.sec2div1{
+    margin:80px
+}
+.sec2div1 h1{
+    color: #396C03;
+    font-weight: 900;
+}
+.sec2div1 p{
+    padding: 20px 0px;
+}
+.sec2div1 button{
+    padding: 8px 40px;
+    border: none;
+    background-color: #396C03;
+    color: white;
+    border-radius: 20px;
+}
+.sec2div2{
+    width: 50%;
+}
+.img3{
+    position: absolute;
+}
+.img4{
+    position: absolute;
+}
