@@ -15,9 +15,15 @@ nav{
 .navleft{
     margin-left: 80px;
 }
-.navmid li{
-       display: inline;
+.navmid li {
+       display: inline-block;
        padding: 0px 15px;
+       text-decoration: none;
+}
+.navmid a{
+    text-decoration: none;
+    color: gray;
+    
 }
 
 .navright{
@@ -37,6 +43,28 @@ nav{
     padding: 15px 15px;
     border-radius: 50%;
 }
+.dropdwoncontent{
+    background-color: #F1F4ED;
+    display: none;
+    position: absolute;
+    padding: 15px;
+}
+.dropdwoncontent a{
+    display: block;
+    text-decoration: none;
+    margin: 5px;
+    background-color: #A3B393;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.dropdwon:hover .dropdwoncontent{
+    display: block;
+}
+.dropdwon i{
+    color:gray;
+}
+
 section{
     display: flex;
     background-color: #F1F4ED;
@@ -46,10 +74,11 @@ section{
     width: 50%;
     height: 400px;
     padding: 100px 100px 100px 180px;
-    background-image: url("img/leaf.png " );
+    background-image: url("img/leaf.png " ) ;
     background-repeat: no-repeat;
     background-size: 260px 200px;
     background-position: 45px 10px;
+
    
 }
 .sectionleft h1{
